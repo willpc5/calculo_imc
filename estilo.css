@@ -1,4 +1,24 @@
+* {
+    font-family: Arial;
+}
 body {
     margin: 0;
     padding: 0;
+}
+.texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    line-height: 30px;
+    color: #1c64af;
+}
+.formulario {
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input {
+    width: 350px;
+    height: 44px;
 }
