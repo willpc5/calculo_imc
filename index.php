@@ -13,15 +13,15 @@
 
     <div class="formulario">
         <div class="areaform">
-            <form method="POST">
+            <form method="POST" action="recebedor.php">
 
                 <h2>Informe seu peso(kg)</h2>
                 
-                <input type="text" name="peso" placeholder="Peso"  />
+                <input type="text" name="peso" placeholder="Peso EX: 62"  />
             
                 <h2>Informe sua altura(metro e cm)</h2>
             
-                <input type="text" name="altura" placeholder="Altura" /><br/><br/>
+                <input type="text" name="altura" placeholder="Altura EX: 1.70 - Utilize ponto" /><br/><br/>
                 
                 <div class="botao">
                     <input type="submit" value="Calcular" />
