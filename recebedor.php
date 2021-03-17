@@ -9,9 +9,9 @@ if ($peso && $altura) {
 
     $calculo = $peso / $imc;
 
-    echo '<h2>'.'IMC -> '.$calculo.'</h2>';
-    echo '<br/>';
-    echo '<h2>'.'Considere os primeiros 4 números.'.'</h2>';
+    $calculo = substr($calculo, 0, 5);
+    echo '<h2>'.'IMC => '.$calculo.'</h2>';
+
 
 } else {
     header('Location: index.php');
