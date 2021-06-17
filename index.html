@@ -13,23 +13,28 @@
 
     <div class="formulario">
         <div class="areaform">
-            <form method="POST" action="recebedor.php">
+            <form>
 
                 <h2>Informe seu peso(kg)</h2>
                 
-                <input type="text" name="peso" placeholder="Peso EX: 62"  />
+                <input type="number" id="peso" name="peso" />
             
                 <h2>Informe sua altura(metro e cm)</h2>
             
-                <input type="text" name="altura" placeholder="Altura EX: 1.70 - Utilize ponto" /><br/><br/>
+                <input type="number" id="altura" name="altura" /><br/><br/>
                 
-                <div class="botao">
+                <div onclick="calcularIMC()" class="botao">
                     <input type="submit" value="Calcular" />
                 </div>
 
+                <div id="resultadoIMC"></div>
             </form>
         </div>
     </div>
+
+    
+
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
