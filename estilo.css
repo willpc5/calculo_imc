@@ -1,10 +1,12 @@
 * {
     font-family: Arial;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 .texto {
     display: flex;
     justify-content: center;
@@ -12,11 +14,13 @@ body {
     line-height: 30px;
     color: #1c64af;
 }
+
 .formulario {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 .areaform {
     width: 370px;
     background-color: #f2f2f2;
@@ -24,15 +28,26 @@ body {
     justify-content: center;
     border-radius: 5px;
 }
+
 input {
     width: 350px;
     height: 44px;
 }
+
 input {
     font-size: 20px;
 }
+
 .botao input {
     width: 100px;
     background-color: #1c64af;
+    color: #FFF;
+}
+
+#resultadoIMC {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #2c2c2c;
     color: #FFF;
 }
