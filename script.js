@@ -27,3 +27,5 @@ function calculateIMC() {
         }
       }
     }
+
+    // Preciso reduzir esse código de outras formas
